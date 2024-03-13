@@ -388,8 +388,94 @@ footer p {
   text-align: center; /* Align text in the center */
 }
 
+.man {
+  padding: 5px;
+}
+
+.sw {
+  position: relative;
+  max-width: 70rem;
+  margin: 0 auto;
+}
+
+.slider {
+  display: flex;
+  overflow-x: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.1);
+}
+
+.slide {
+  flex: 0 0 auto;
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-container img {
+  display: flex;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 5%;
+  left: 23%;
+  color: black;
+  font-weight: bold;
+  z-index: 2;
+  opacity: 1; /* Initially hidden */
+}
 
 
+
+.snav {
+  display: flex;
+  column-gap: 1rem;
+  position: absolute;
+  bottom: 1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.snav a {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: black;
+  opacity: 0.75;
+  transition: opacity ease 250ms;
+}
+
+.snav a:hover {
+  opacity: 1;
+}
+
+#s1{
+  height: 750px;
+  width: auto;
+}
+
+#s2{
+  height: 750px;
+  width: 70rem;
+}
+
+#s3{
+  height: 750px;
+  width: 70rem;
+}
+
+#tx1{
+  font-size: 50px;
+  margin-top: 70px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
 
 
