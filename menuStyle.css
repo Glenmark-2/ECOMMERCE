@@ -327,6 +327,42 @@ body{
 }
 
 
+footer {
+  margin-top: 30px;
+  background-color: #13161e;
+  height: 300px;
+  width: 100%;
+  position: relative;
+}
+#foot{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#foot img {
+  margin-top: 60px;
+  height: 70px;
+}
+
+#socials{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#socials img{
+  margin-left: 10px;
+}
+
+footer p {
+  color: #ffff;
+  text-align: center; /* Align text in the center */
+}
+
 
 
 

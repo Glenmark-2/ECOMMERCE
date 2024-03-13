@@ -26,18 +26,21 @@ padding: 0;
 
   .statement {
     position: absolute;
-    top: 25%; /* Position at the vertical center */
-    left: 50%; /* Position at the horizontal center */
-    transform: translate(-50%, -50%); /* Center the element */
-    z-index: 2; /* Ensure the statement is on top of the image */
-    text-align: center; /* Center the text */
-    font-size: 55px; /* Adjust the font size as needed */
-    font-weight: bold; /* Make the text bold */
+    top: 25%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    z-index: 2; 
+    text-align: center; 
+    font-weight: bold; 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: black; /* Set text color */
+    color: black; 
 
-    padding: 20px; /* Add some padding */
-    border-radius: 10px; /* Rounded corners */
+    padding: 20px; 
+    border-radius: 10px; 
+}
+
+.statement p{
+  font-size: 50px;
 }
 
 
@@ -123,15 +126,15 @@ padding: 0;
   }
   
   .image-box::before {
-    content: ''; /* Add your desired text here */
+    content: ''; 
     position: absolute;
-    bottom: 30px; /* Adjust vertical positioning */
-    left: 50%; /* Adjust horizontal positioning */
+    bottom: 30px;
+    left: 50%; 
     transform: translateX(-50%);
-    color: black; /* Adjust text color */
-    font-size: 14px; /* Adjust font size */
-    opacity: 0; /* Initially hide the text */
-    transition: opacity 0.3s ease; /* Add a transition effect */
+    color: black; 
+    font-size: 14px; 
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
   }
   
   .image-box::after {
@@ -204,11 +207,12 @@ padding: 0;
     background-color: #F5F6F7;
     height: 70px;
     width: 100%;
+    margin-top: 50px;
   }
 
   .banner img{
      
-    height: 90px;
+    height: 60px;
     width: auto;
 
   }
@@ -218,12 +222,178 @@ padding: 0;
     display: flex; /* Use flexbox for centering */
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
+    margin-bottom: 20px;
 }
 
 .quotes p {
-    font-size: 24px; /* Set the font size to be larger */
-    text-align: center; /* Center the text horizontally */
+    font-size: 24px; 
+    text-align: center;
+
 }
+
+#smsngad {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 450px;
+  width: auto;
+  position: relative;
+}
+
+#smsngad {
+  display: flex;
+  align-items: center; /* Align vertically */
+}
+
+#smsngad img {
+  max-width: 100%; /* Adjusted width */
+  transition: transform 0.3s ease;
+}
+
+#smsngad img:hover {
+   transform: scale(1.1);
+   cursor: pointer;
+}
+
+#smsngad .caption {
+  margin-left: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+#smsngad .caption h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#smsngad .caption p {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+#design {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; 
+  align-items: flex-end; 
+}
+
+#design #p{
+  
+  height: 40px;
+  width: 35%;
+  background-color: #333;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#design1{
+  display: flex;
+  flex-direction: row;
+}
+
+#design1 #p1{
+  margin-top: 10px;
+  height: 40px;
+  width: 35%;
+  background-color: #333;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+
+#about {
+  background-color: #e8e8e8;
+  padding: 20px;
+}
+
+.title-container {
+  text-align: center;
+}
+
+#WHY {
+  font-size: 28px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.trapezoids-container {
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+}
+
+.trapezoid {
+  width: 300px;
+  height: 280px; /* Adjusted height */
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-bottom: 20px;
+  border-radius: 10%;
+}
+
+.content {
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px;
+}
+
+.content img {
+  height: 80px;
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+footer p {
+  font-family: Arial, sans-serif; /* Same font */
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+footer {
+  margin-top: 30px;
+  background-color: #13161e;
+  height: 300px;
+  width: 100%;
+}
+#foot{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#foot img {
+  margin-top: 60px;
+  height: 70px;
+}
+
+#socials{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#socials img{
+  margin-left: 10px;
+}
+
+footer p {
+  color: #ffff;
+  text-align: center; /* Align text in the center */
+}
+
+
+
+
+
+
+
 
 
   
